@@ -1,50 +1,508 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demoSD</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  </head>
-  <body>
-    <!-- <h1>Hello, world!</h1> -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Jevelin</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jevelin Theme Startup Clean Demo – Just another Jevelin WordPress Theme site</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/assets/owl.theme.default.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;1,100;1,200;1,300&family=Roboto&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <script src="first.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg "
+    style="background-color:#2626f4; padding-top: 64px;font-size: 17px;font-weight: bold;">
+    <div class="container">
+      <a href="#"><img src="/image/Jevelin_logo_light.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse Z-3" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link px-4" aria-current="page" href="#home" style="color: #fff;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-4" href="#service" style="color: #fff;">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-4" href="#pricing" style="color: #fff;">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-4" href="#newest-tehno" style="color: #fff;">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-4" href="#" style="color: #fff;"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-4" href="#" style="color: #fff;"><i class="fa fa-instagram"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-4" href="#" style="color: #fff;"><i class="fa fa-search"></i></a>
+          </li>
+        </ul>
+
+      </div>
+  </nav>
+
+  <div class="image">
+    <img
+      src="https://jevelin.shufflehound.com/startup-clean/wp-content/uploads/sites/34/2019/03/Vector-Smart-Object21-copy-2.png"
+      alt="" style="float: right;" class="img-1">
+    <img
+      src="https://jevelin.shufflehound.com/startup-clean/wp-content/uploads/sites/34/2019/03/Vector-Smart-Object11-copy.png"
+      alt="" style="float: right;" class="img-2">
+    <img
+      src="https://jevelin.shufflehound.com/startup-clean/wp-content/uploads/sites/34/2019/03/Vector-Smart-Object111-copy-3.png"
+      alt="" style="float: right;" class="img-3">
+    <img
+      src="https://jevelin.shufflehound.com/startup-clean/wp-content/uploads/sites/34/2019/03/Vector-Smart-Object112-copy-2.png"
+      alt="" style="float: right;" class="img-4">
+
+  </div>
+
+
+  <section id="home">
+    <div style="height: auto;">
+      <div class="container-1" style=" padding-left: 8%; padding-top: 8%;">
+        <div class="row-1 pb-5 " style="opacity: 60%;top: -250px;">
+          <h5>Main slogan for produt</h5>
+        </div>
+        <div class="row-2 pb-5" style="position: relative;top: -280px;">
+          <h2>Organize your ideas and <br> future plans with our <br> smart business planner</h2>
+        </div>
+        <div class="row-3 pb-5" style="opacity: 60%;position: relative;top: -300px;">
+          <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+            <br>
+            Perferendis desert quibusdam into possible
+            corrupti a vitae <br> <br> laudantium? Nulla perferendis odit laboriosam provident?
+          </h6>
+        </div>
+        <div style="padding-bottom: 110px;position: relative;top: -250px;">
+
+          <button type="button" class="btn btn-primary btn-lg " style="position: relative;top: -50px;"><span
+              style="padding: 12px;"><b>Explore the
+                product</b><span></button>
+        </div>
+      </div>
+
+      <div class="wrapper">
+        <div class="custom-shape-divider-bottom-1696407088">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path
+              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+              class="shape-fill"></path>
+          </svg>
+        </div>
+      </div>
+
+      <div class="img">
+        <img src="" alt="">
+      </div>
+
+
+
+      <div class="container" id="service" style="padding-top: 100px; margin-right: 5%;">
+        <div class="row">
+
+          <div class="col-12 col-lg-3 card text-center mb-3 " style="width: 18rem; ">
+            <div class="card-body">
+              <i class="fa-regular fa-paper-plane " style="color: #3f33ff; height: 115px; font-size: 45px;"></i>
+              <h5 class="card-title">Synchronize emails</h5>
+              <p class="card-text" style="line-height: 31px;">Lectus, non ultrices nisi. In varius, leo non gravida
+                tristique, diam nunc</p>
+            </div>
+          </div>
+
+
+          <div class="col-12 col-lg-3 card text-center mb-3" style="width: 18rem;">
+            <div class="card-body">
+              <i class="fa-solid fa-calculator" style="color: #3f33ff; height: 115px; font-size: 45px;"></i>
+              <h5 class="card-title">Automatic bill payment</h5>
+              <p class="card-text" style="line-height: 31px;">Lorem ipsum dolor mauris in amet, consectetur adipiscing
+                elit. Maur leo</p>
+            </div>
+          </div>
+
+
+          <div class="col-12 col-lg-3 card text-center mb-3" style="width: 18rem;">
+            <div class="card-body">
+              <i class="fa fa-lock" style="color: #3f33ff; height: 115px; font-size: 45px;"></i>
+              <h5 class="card-title">Password storage</h5>
+              <p class="card-text" style="line-height: 31px;">Amet, consectetur adipiscing elit. Mauris vitae sodales
+                lectus, non</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-3 card text-center mb-3" style="width: 18rem;">
+            <div class="card-body">
+              <i class="fa-regular fa-lightbulb" style="color: #3f33ff; font-size: 45px; height: 115px;"></i>
+              <h5 class="card-title">AI Assistant</h5>
+              <p class="card-text" style="line-height: 31px;">Mauris, dolor vitae sodales lectus, non ultrices nisi. In
+                varius, leo non</p>
+            </div>
           </div>
         </div>
-      </nav>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  </body>
+      </div>
+
+
+      <section class="py-5">
+        <div class="container">
+          <div class="row my-5">
+            <div class="col-lg-6 d-flex" style="align-items: center;justify-content: end;">
+              <div class="w-75 d-flex" style="justify-content: center;">
+                <img src="/image/undraw_destinations_fpv7.png" width="100%">
+              </div>
+            </div>
+            <div class="col-lg-6 d-flex justify-content-center align-item-center">
+              <div class="w-75 d-flex" style=" align-items: center;">
+                <div>
+                  <h6 class="mb-4">Smart assistant</h6>
+                  <h3 class="mb-4" style="font-size: 36px; line-height: 53px;">
+                    Let our unique AI Assistant plan months ahead
+                  </h3>
+                  <p class="mb-4" style="line-height: 34px;">
+
+                    Ut et nisi ac dui pulvinar consequat. Curabitur aliquam, felis ut ultricies porta, ante dolor
+                    iaculis
+                    ante, ante dolor iaculis anteet fringilla ligula tortor eget nisi.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row my-5">
+            <div class="col-lg-6 d-flex justify-content-center align-item-center">
+              <div class="w-75 d-flex" style=" align-items: center;">
+                <div>
+                  <h6 class="mb-4">One for all</h6>
+                  <h3 class="mb-4" style="font-size: 36px; line-height:53px">
+                    Synhronize your social life, email and contacts
+                  </h3>
+                  <p class="mb-4" style="line-height: 34px;">
+                    Donec et augue pharetra, rutrum leo at, laoreet nulla. Nullam mattis sed justo quis sollicitudin.
+                    Maecenas lobortis fermentum fringilla. Vivamus in diam erat.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 d-flex" style="align-items: center;justify-content: end;">
+              <div class="w-75 d-flex" style="justify-content: center;">
+                <img src="/image/undraw_social_notifications_ro8o.png" width="100%">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="wrapper">
+        <div class="heading">
+          <h5>Intro video</h5>
+          <h2>About product in a short video </h2>
+        </div>
+
+        <div class="video-player">
+          <iframe width="1350px" height="675px" src="https://www.youtube.com/embed/g4n2yVPnQzs?si=TiZoD53rk-NDcMIh"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen style="border-radius: 9px;"></iframe>
+        </div>
+      </div>
+
+
+      <div class="video-details row">
+        <div class="col box1">
+          <h2 style="font-weight: 600;color: #5a5a5a;">Video quote</h2>
+          <p style=" line-height: 38px; margin-left: 10px; font-size: 18px; margin-top: 19px; color: gray;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>Mauris vitae
+            sodales lectus, non ultrices nisi. In varius, leo <br> non gravida tristique</p>
+        </div>
+        <div class="col box2" style=" margin-left: 239px;">
+          <h2 style="font-weight: 600;color: #5a5a5a; "> List about video</h2>
+          <p><i class="fa-sharp fa-solid fa-ellipsis fa-rotate-90" style="color: #3f33ff;"></i> Lorem ipsum dolor sit
+            amet, consectetur adipiscing</p>
+          <p><i class="fa-sharp fa-solid fa-ellipsis fa-rotate-90" style="color: #3f33ff;"></i> Odales lectus, non
+            ultrices nisi</p>
+          <p><i class="fa-sharp fa-solid fa-ellipsis fa-rotate-90" style="color: #3f33ff;"></i> In varius, leo non
+            gravida tristique lectus</p>
+        </div>
+      </div>
+
+
+      <div class="pricing-table" id="pricing">
+        <div class="details">
+          <h2>Pricing</h2>
+          <p>Select your plan!</p>
+        </div>
+        <div class="grid">
+          <div class="box Basic">
+            <div class="tittle">Basic</div>
+            <div class="price">
+              <b>$19</b>
+            </div>
+            <div class="features">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptatibus iusto.
+                Asperiores, cumque voluptates nesciunt natus enim ipsa.</p>
+            </div>
+            <div class="button">
+              <button class="btn1">choose pricing</button>
+            </div>
+          </div>
+
+          <div class="box Pro" style="background:#fff;box-shadow: 4px -3px 15px #dcdbdb; border-radius: 5px;">
+            <div class="tittle">Pro</div>
+            <div class="price">
+              <b>$29</b>
+            </div>
+            <div class="features">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptatibus iusto.
+                Asperiores, cumque voluptates nesciunt natus enim ipsa.</p>
+            </div>
+            <div class="button">
+              <button class="btn1">choose pricing</button>
+            </div>
+          </div>
+
+          <div class="box Business?">
+            <div class="tittle">Business?</div>
+            <div class="price">
+              <b>Custom</b>
+            </div>
+            <div class="features">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptatibus iusto.
+                Asperiores, cumque voluptates nesciunt natus enim ipsa.</p>
+            </div>
+            <div class="button">
+              <button class="btn1">contact us</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row align-items-start ">
+          <div class="col-lg-6" style="position: relative;left: 50px;">
+            <div class="row my-5 py-5" style="width: 100%; margin-left: 153px; height: 17%;">
+              <div class="col-lg-5 d-flex justify-content-center align-item-center">
+                <div class="w-75 d-flex" style=" align-items: center;">
+                  <div>
+                    <h6 class="mb-4">Happy customers!</h6>
+                    <h3 class="mb-4" style="font-size: 36px; line-height:53px;width:400px">
+                      We give our best to make you happy!
+                    </h3>
+                    <p class="mb-4" style="line-height: 34px;">
+                      Ut et nisi ac dui pulvinar consequat. Curabitur aliquam, felis ut ultricies porta, ante dolor
+                      iaculis
+                      ante, ante dolor iaculis anteet fringilla ligula tortor eget nisi.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+
+          <div class="col" style="margin-top: 80px;">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"
+              style="width: 400px;width: 500px; transform: rotate(90deg);">
+              <div class="carousel-indicators"
+                style="  transform: rotate(90deg); ;position: relative;bottom: -203px;margin-right: -381px;overflow: hidden;">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+
+                  <img
+                    src="https://img.freepik.com/fotos-kostenlos/glueckliches-jugendlich-maedchen-das-baseball-spielt_23-2148209546.jpg?w=1060&t=st=1696773522~exp=1696774122~hmac=b0b51d9adc913f784f2e2ea450e80f18dfe63975119d9e22d16f75057108e60b"
+                    class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://img.freepik.com/fotos-kostenlos/mittelgrosse-frauen-die-basketball-spielen_23-2150650211.jpg?w=1060&t=st=1696773659~exp=1696774259~hmac=87dedce0607224e5caae8b5f7ae62fc049c49f9258b74eba5de9ff5972ef9c3d"
+                    class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://img.freepik.com/fotos-kostenlos/sport-lifestyle-fitness-maennlich-ausbildung_1139-724.jpg?w=1060&t=st=1696773733~exp=1696774333~hmac=fe954a47201341e9037f43010c6a6993ac1a1afc4828268bfa57e451437f6591"
+                    class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                >
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="subscribe">
+        <div class="inner">
+          <h2>Subscribe to be up to date with our latest news and stories</h2>
+        </div>
+
+
+        <form class="form">
+          <div class="input-group">
+            <input type="text" class="input" placeholder="Please enter your email here... "
+              style="font-style: italic; border-radius: 5px;">
+            <input type="submit" value="Subscribe" class="form-control submit">
+          </div>
+          <p style="padding: 25px; color: darkgrey; font-size: 14px;">Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Necessitatibus, quia.</p>
+        </form>
+      </div>
+
+
+      <div class="wrapper-1 ml-auto mb-2 mb-lg-0" id="newest-tehno"
+        style="display: flex; gap: 29px; align-items:center; justify-content: center; width:100%; margin-top: -80px; cursor: pointer;">
+        <div class="card-1 "
+          style="width: 24rem; padding: 12px; box-shadow: 4px -3px 15px #dcdbdb; border-radius: 5px;">
+          <div class="newest" style="overflow: hidden;">
+            <img src="/image/101_0001_alexandru-acea-bbokzTQjB9o-unsplas3h.jpg" class="card-img-top"
+              width="340px"><br><br>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Newest technology</h5><br>
+            <div class="card-body">
+              <a href="#" class="card-link" style="text-decoration: none;">All, Design</a>
+            </div><br>
+            <p class="card-text">A wonderful serenity has taken possession of my entire soul, like these sweet mornings
+              of spring whic i enjoy with my whole heart....</p>
+          </div>
+          <hr>
+          <h6>Read more</h6>
+        </div>
+
+
+        <div class="card-1" style="width: 24rem; padding: 12px;box-shadow: 4px -3px 15px #dcdbdb; border-radius: 5px;">
+          <img src="/image/101_0001_alexandru-acea-bbokzTQjB9o-unsplas4h.jpg" class="card-img-top"
+            width="340px"><br><br>
+          <div class="card-body">
+            <h5 class="card-title">Study and work at home</h5><br>
+            <div class="card-body">
+              <a href="#" class="card-link" style="text-decoration: none;">Design, News</a>
+            </div><br>
+            <p class="card-text">A wonderful serenity has taken possession of my entire soul, like these sweet mornings
+              of spring whic i enjoy with my whole heart....</p>
+          </div>
+          <hr>
+          <h6>Read more</h6>
+        </div>
+
+
+        <div class="card-1" style="width: 24rem; padding: 12px;box-shadow: 4px -3px 15px #dcdbdb; border-radius: 5px;">
+          <img src="/image/101_0001_alexandru-acea-bbokzTQjB9o-unsplas6h.jpg" class="card-img-top"
+            width="340px"><br><br>
+          <div class="card-body">
+            <h5 class="card-title">New office</h5><br>
+            <div class="card-body">
+              <a href="#" class="card-link" style="text-decoration: none;">All, Clients</a>
+            </div><br>
+            <p class="card-text">A wonderful serenity has taken possession of my entire soul, like these sweet mornings
+              of spring whic i enjoy with my whole heart....</p>
+          </div>
+          <hr>
+          <h6>Read more</h6>
+        </div>
+      </div>
+
+
+      <div class="container text-center" style="margin-top: 110px;">
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-6">
+          <div class="col"><img
+              src="https://jevelin.shufflehound.com/startup-clean/wp-content/uploads/sites/34/2019/03/Partners1.png"
+              alt=""></div>
+          <div class="col"><img
+              src="https://jevelin.shufflehound.com/startup-clean/wp-content/uploads/sites/34/2019/03/Partners2.png"
+              alt="" alt=""></div>
+          <div class="col"><img
+              src="https://jevelin.shufflehound.com/startup-clean/wp-content/uploads/sites/34/2019/03/Partners3.png"
+              alt="" alt=""></div>
+          <div class="col"><img
+              src="https://jevelin.shufflehound.com/startup-clean/wp-content/uploads/sites/34/2019/03/Partners4.png"
+              alt=""></div>
+          <div class="col"> <img
+              src="https://jevelin.shufflehound.com/startup-clean/wp-content/uploads/sites/34/2019/03/Partners5.png"
+              alt=""></div>
+          <div class="col"> <img
+              src="https://jevelin.shufflehound.com/startup-clean/wp-content/uploads/sites/34/2019/03/Partners6.png"
+              alt=""></div>
+        </div>
+      </div>
+
+
+      <footer class="footer" style=" margin-top: 32px;">
+        <div class="footer-content">
+          <img src="/image/Jevelin_logo_dark.png" width="22%">
+          <p>Follow our latest achievements and information on social networks</p>
+          <div class="icons">
+            <a href="#"><i class='bx bxl-facebook-square'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-youtube'></i></a>
+          </div>
+        </div>
+
+        <div class="footer-content">
+          <h4>Explore</h4>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Testimonials</a></li>
+        </div>
+
+        <div class="footer-content">
+          <h4>Teamwork</h4>
+          <li><a href="#">Partners</a></li>
+          <li><a href="#">Licenses</a></li>
+          <li><a href="#">Reviews</a></li>
+        </div>
+
+        <div class="footer-content">
+          <h4>Marketing</h4>
+          <li><a href="#">Strategy</a></li>
+          <li><a href="#">Advertisements</a></li>
+          <li><a href="#">Referrals</a></li>
+        </div>
+      </footer>
+
+    </div>
+  </section>
+
+  <section style="text-align: center; padding: 1%;background: #fff;;color: grey;">
+    <p>Copyright 2019 Shufflehoun. All rights reserved.</p>
+  </section>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/04f705dedc.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
